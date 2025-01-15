@@ -62,22 +62,11 @@ else:
     x.append(len(s)-1)
     print(" iam from Y",x)
     
-print(x,y,res)
-while count < len(s)-1:
-    test=0
-    if count < len(x)-1:
-        test = x[count+1] - x[count]
-        if test -2 == 1:
-            res = res + test - 2
-    if count < len(y)-1:
-        test = y[count+1]-y[count]
-        if test -2 == 1:
-            res = res + test - 2
-    count = count +1 
 
-print(res)
 
-if x[-1]-x[-2]==1 and x[-1]==len(s)-3:
-    print("  am i working")
-    res = res + 1
+
+
+
+
 print( res)
+ 
